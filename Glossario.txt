@@ -1,0 +1,4 @@
+CT == contratante
+FL == FreeLancer
+Visitante == Pessoa que ainda não se registrou
+Cliente == Já se registrou
