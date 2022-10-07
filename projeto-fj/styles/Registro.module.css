@@ -68,7 +68,7 @@
 }
 
 .input1 {
-	border: 1rem;
+	margin-bottom: 10px;
 }
 
 .form {
@@ -96,6 +96,7 @@
 }
 
 .button {
+	margin-bottom: -80px;
 	border-radius: 20px;
 	border: 1px solid ;
 	background-color: #7A4897;

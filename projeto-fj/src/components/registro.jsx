@@ -11,11 +11,11 @@ export default function Registro() {
                     
                     <form className={styles.form}>
                         <h2 className={styles.text}>Crie aqui a sua conta</h2>
-                        <input type={"text"} placeholder={"nome"} />
-                        <input type={"email"} placeholder={"Email"} />
-                        <input type={"password"} placeholder={"Senha"} />
-                        <input type={"telefone"} placeholder={"Telefone"} />
-                        <input type={"morada"} placeholder={"Morada"} />
+                        <input className={styles.input1} type={"text"} placeholder={"nome"} />
+                        <input className={styles.input1} type={"email"} placeholder={"Email"} />
+                        <input className={styles.input1} type={"password"} placeholder={"Senha"} />
+                        <input className={styles.input1} type={"telefone"} placeholder={"Telefone"} />
+                        <input className={styles.input1} type={"morada"} placeholder={"Morada"} />
 
                         <button className={styles.button}>Login</button>
 
