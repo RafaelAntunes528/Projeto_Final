@@ -2,13 +2,9 @@ import styles from '../../styles/Registro.module.css'
 
 export default function Registro() {
     return (
-        <div className={styles.container}>
-            <div className={styles.div1}>
+        <div className={styles.container}>     
                 <div className={styles.div2}>
-                    <div>
-                        <button className={styles.button1}>Voltar</button>
-                    </div>
-
+                    <button className={styles.button1}>Voltar</button>
                 </div>
                 <div className={styles.div3}>
                     <form className={styles.form}>
@@ -22,7 +18,6 @@ export default function Registro() {
 
                     </form>
                 </div>
-            </div>
         </div>
 
 
