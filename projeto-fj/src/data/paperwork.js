@@ -4,7 +4,7 @@ import { getMongoCollection } from "./mongodb"
 const DB_NAME = "Projeto-Final"
 const COLLECTION_NAME = "Contas"
 
-async function GetConta() {
+async function GetContaEmail() {
     const collection = await getMongoCollection(DB_NAME, COLLECTION_NAME)
     return await collection.findOne().toArray()
 }
@@ -15,6 +15,6 @@ async function insertConta(op) {
 }
 
 export {
-    GetConta,
+    GetContaEmail,
     insertConta,
 }
