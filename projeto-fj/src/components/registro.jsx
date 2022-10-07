@@ -1,11 +1,12 @@
 import styles from '../../styles/Registro.module.css'
-
+import { useRouter } from "next/router"
 export default function Registro() {
+    const router = useRouter()
     return (
         <div className={styles.container}> 
             <div className={styles.ai}>  
                 <div className={styles.div2}>
-                    <button className={styles.button1}>Voltar</button>
+                    <button onClick={() => router.push("/login")} className={styles.button1}>Voltar</button>
                 </div>
                 <div>
                     
