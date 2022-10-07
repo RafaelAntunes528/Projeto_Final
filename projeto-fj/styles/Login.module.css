@@ -1,0 +1,60 @@
+.container {
+    background: url("https://i.imgur.com/K8WO8vm.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+
+}
+
+.button2 {
+    border-radius: 20px;
+    border: 1px solid;
+    background-color: #7A4897;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+
+}
+
+
+.ghost2 {
+    border-radius: 20px;
+    border: 1px solid;
+    background-color: transparent;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+}
+
+.form {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 30vw;
+    width: 20vw;
+    text-align: center;
+}
+
+.div2 {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: linear-gradient(to right, #C5E1F7, #234F70);
+    border-color: black;
+    width: 20vw;
+    height: 30vw;
+    align-items: center;
+    justify-content: center;
+}
