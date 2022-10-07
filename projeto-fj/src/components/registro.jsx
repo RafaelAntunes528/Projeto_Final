@@ -1,4 +1,3 @@
-import index from '../../pages/index.jsx'
 import styles from '../../styles/Registro.module.css'
 
 export default function Registro() {
