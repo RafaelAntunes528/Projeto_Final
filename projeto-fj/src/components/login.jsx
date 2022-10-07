@@ -1,6 +1,14 @@
-
 export default function Login(){
-    return(
-        <div><p>Hello</p></div>
+    return (
+        <div className="main">
+            <div>
+                <form>
+                    <input></input>
+                    <input></input>
+                </form>
+
+            </div>
+        </div>
+
     )
 }
