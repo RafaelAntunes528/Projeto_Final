@@ -1,0 +1,85 @@
+.container {
+    background: #75B8EF;
+    height: 100vh;
+    width: 450px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    outline: none;
+
+}
+
+.avatar {
+    background: #c5e1f7;
+    padding: 2em 0.5em;
+    width: 450px;
+    height: 400px;
+    text-align: center;
+    border: 1px solid white;
+
+}
+
+.imag {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #7A4897;
+    margin-left: 125px;
+
+
+}
+
+.textos {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.button2 {
+    border-radius: 20px;
+    height: 50px;
+    width: 215px;
+    border: 1px solid;
+    background-color: #7A4897;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    align-items: center;
+    text-align: center;
+    margin-left: 115px;
+    margin-top: 450px;
+
+
+}
+
+
+.submenu {
+    width: 450px;
+    height: 60px;
+    transition: all 330ms ease-in-out;
+}
+
+.submenu:hover {
+    background-color: #7A4897;
+
+}
+
+.button3 {
+    width: 450px;
+    height: 60px;
+    transition: all 330ms ease-in-out;
+    font-size: 20px;
+}
+
+.button3:hover {
+    background-color: #7A4897;
+    font-size: 30px;
+
+}
