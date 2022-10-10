@@ -1,5 +1,6 @@
 import styles from '../../styles/HomePage.module.css'
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 
 /* async function lerHistorico() {
     return await fazPedido(
@@ -24,14 +25,17 @@ export function Calculadora() {
     }, []) */
 
 export default function HomePage() {
+
+    const router = useRouter()
+
     return (
         <div className={styles.HomePage}>
             <div className={styles.main}>
                 <Image className={styles.image} src="/images/FastJob.png" alt="logo" width={240} height={150}></Image>
 
 
-                <button className={styles.registro}>REGISTRE-SE</button>
-                <button className={styles.login}>LOGIN</button>
+                <button onClick={()=> router.push("/registro")} className={styles.registro}>REGISTRE-SE</button>
+                <button onClick={()=> router.push("/login")} className={styles.login}>LOGIN</button>
 
             </div>
             <div className={styles.qq}>
