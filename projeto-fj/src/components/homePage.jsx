@@ -56,7 +56,7 @@ export default function HomePage() {
                     </div>
                     <div className={styles.qitem4}>
                         <h1 className={styles.pt2}>Tem 8 722 oportunidades de trabalho à sua disposição.</h1>
-                        <button onClick={() => router.push("/flOfertas")} className={styles.buto}>Confira por si</button>
+                        <button onClick={() => router.push("/flOfertas")} className={styles.buto}>Adira agora</button>
                     </div>
                 </div>
 
