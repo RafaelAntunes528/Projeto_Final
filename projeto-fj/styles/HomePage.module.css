@@ -51,7 +51,7 @@
 }
 
 .q1{
-    background-color: rgb(255, 255, 255);
+    background-color: red;
     width: 50vw;
     height: 50vw;
     
@@ -59,7 +59,7 @@
 }
 
 .q2{
-    background-color: rgb(255, 255, 255);
+    background-color: green;
     width: 50vw;
     height: 50vw;
     border-left: 3px;
