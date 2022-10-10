@@ -1,3 +1,12 @@
+.input {
+    box-sizing: border-box;
+    background-color: rgba(226, 226, 226, 0.835);
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+}
+
 .container {
     background: url("https://i.imgur.com/K8WO8vm.jpg");
     display: flex;
@@ -6,7 +15,15 @@
     flex-direction: row;
     font-family: 'Montserrat', sans-serif;
     height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
 
+.ai {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+        0 10px 10px rgba(0, 0, 0, 0.22);
+    display: flex;
+    border-radius: 20px;
 }
 
 .button2 {
@@ -51,10 +68,15 @@
 .div2 {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    background: linear-gradient(to right, #C5E1F7, #234F70);
+    background: linear-gradient(to right, #83a7c5, #234F70);
     border-color: black;
-    width: 20vw;
-    height: 30vw;
+    display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 30vw;
+    width: 20vw;
+    color: #FFFFFF;
+
 }
