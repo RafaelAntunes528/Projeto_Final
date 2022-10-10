@@ -12,7 +12,6 @@
 
 .registro {
     cursor: pointer;
-    color: black;
     background-color: white;
     margin-left: 10%;
     margin-top: 44px;
@@ -32,7 +31,6 @@
 }
 
 .login {
-    color: black;
     cursor: pointer;
     background-color: white;
     margin-top: 44px;

@@ -11,7 +11,7 @@ import SideBar from '../src/components/sideBar'
 export default function Home() {
   return (
     <div className={styles.container}>
-      <HomePage></HomePage>
+      <SideBar></SideBar>
     </div>
   )
 }
