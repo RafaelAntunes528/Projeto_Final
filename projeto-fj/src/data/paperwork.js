@@ -8,20 +8,20 @@ const DB_NAME = "Projeto-Final"
 const COLLECTION_NAME = "Contas"
 
 
-// Obtem a coleção com que tem o email igual ao pedido
-async function GetContaEmail() {
-    const collection = await getMongoCollection(DB_NAME, COLLECTION_NAME)
-    return await collection.findOne().toArray()
-}
 
 // Introduz uma conta a coleção
 async function insertConta(op) {
     const collection = await getMongoCollection(DB_NAME, COLLECTION_NAME)
     await collection.insertOne(op)
 }
+async function getUserByEmail(email) {
+    const collection = await getMongoCollection(DB_NAME, COLLECTION_NAME);
+    const result = await collection.findOne({ email });
+    return result;
+  }
 
 // Exportamos as duas funções criadas acima
 export {
-    GetContaEmail,
+    getUserByEmail,
     insertConta,
 }

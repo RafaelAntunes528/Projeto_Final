@@ -6,7 +6,8 @@ export async function fazPedido(url, method, body) {
         },
         body: JSON.stringify(body)
     })
-    if (res.status === 204) return true
+    console.log(res)
+    if (res.status === 404) return false
     const json = await res.json()
     return json
 }
