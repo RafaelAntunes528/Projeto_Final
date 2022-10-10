@@ -3,11 +3,13 @@
     width: 100vw;
     height: 74px;
     position: fixed;
+    display: flex;
+    flex-direction: column;
 }
 
 .registro {
     margin-left: 10%;
-    margin-top: -24px;
+    margin-top: 24px;
     right: 10px;
     position: absolute;
     margin-right: 14vw;
@@ -21,7 +23,7 @@
 }
 
 .login {
-    margin-top: -24px;
+    margin-top: 24px;
     margin-left: 40px;
     margin-right: 3vw;
     position: absolute;
@@ -35,13 +37,14 @@
 
 .logo{
     display: flex;
-    flex-direction: row;
     font-size: 10px;
     justify-content: space-between;
     margin-right: 85vw;
     margin-top: 25px;
     margin-left: 3vw;
     font-family: 'Times New Roman', Times, serif;
-
+   
 }
+
+
 
