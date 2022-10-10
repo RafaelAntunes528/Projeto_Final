@@ -68,7 +68,13 @@
 }
 
 .input1 {
-	margin-bottom: 10px;
+	box-sizing: border-box;
+    background-color: rgba(226, 226, 226, 0.835);
+    border: none;
+    padding: 8px 15px;
+    margin: 8px 0;
+    width: 100%;
+    color: black;
 }
 
 .form {
