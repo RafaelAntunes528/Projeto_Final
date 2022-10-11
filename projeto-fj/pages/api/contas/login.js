@@ -20,11 +20,11 @@ export default async function handler(req, res) {
             });
         }
         
-        res.status(200)
+        res.status(200).json({message: "Funciona"})
         console.log("RES")
     }else {
         console.log("ok")
-        return res.status(404)
+        return res.status(404).json({message: "A password introduzida é inválida!"})
     }
 
 }

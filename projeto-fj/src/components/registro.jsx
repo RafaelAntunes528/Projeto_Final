@@ -18,9 +18,9 @@ export default function Registro() {
         }
 
     const fim = ( async() => {
-       const a = await fazPedido("/api/contas", "POST", contas)
-        console.log(a)
-        router.push("/login")
+        const a = await fazPedido("/api/contas", "POST", contas)
+        if(a.status === 200)
+         router.push("/login")
     })
 
     return (

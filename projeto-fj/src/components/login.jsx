@@ -16,6 +16,7 @@ export default function Login() {
     const fim = ( async() => {
         const a = await fazPedido("/api/contas/login", "POST", info)
          console.log(a)
+         if(a.status === 200)
          router.push("/homePage")
     })
 
