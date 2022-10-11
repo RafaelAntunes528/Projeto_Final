@@ -16,7 +16,7 @@ export default function PageOffers() {
             <div className={styles.main}>
                 <div className={styles.q1}>
                     <div className={styles.q2}>
-                        <p className={styles.title1}>As suas propostas de trabalho</p>
+                        <p className={styles.title1}>Pesquisar por ofertas</p>
                         <div className={styles.icone}>
                             <AddCircleOutlineIcon />
                         </div>
