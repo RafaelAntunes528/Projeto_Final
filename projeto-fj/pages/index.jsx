@@ -12,7 +12,11 @@ import PageOffers from '../src/components/pageOffersCT'
 export default function Home() {
   return (
     <div className={styles.container}>
+<<<<<<< HEAD
       <PageOffers></PageOffers>
+=======
+      <Login></Login>
+>>>>>>> d4a7fce37ae2815ceaa25f4083641435cb3aada0
     </div>
   )
 }

@@ -16,6 +16,7 @@ export default function Login() {
     const fim = ( async() => {
         const a = await fazPedido("/api/contas/login", "POST", info)
          console.log(a)
+         if(a.status === 200)
          router.push("/homePage")
     })
 
@@ -25,6 +26,7 @@ export default function Login() {
             <div className={styles.ai}>
 
                 <div className={styles.form}>
+                    <img src='/images/FastJob.png' width={290} height={180}></img>
                     <form onSubmit={(e) => e.preventDefault(fim())}>
 
                         <input onChange={(e)=> setEmail(e.target.value)} value={email} className={styles.input} type={"email"} placeholder={"Email"} />
@@ -34,9 +36,9 @@ export default function Login() {
                     </form>
                 </div>
                 <div className={styles.div2}>
-                    <h1>Fast Job</h1>
-                    <p>Aqui começa sua jornada, ofereça vagas ou encontre vagas para você</p>
-                    <button onClick={() => router.push("/registro")} className={styles.ghost2}>Registrar</button>
+                    <p>Recebemos mais de 100 novos utilizadores por dia.</p>
+                    <p>Junte-se a eles e confira o porquê.</p>
+                    <button onClick={() => router.push("/registro")} className={styles.ghost2}>Crie uma conta</button>
                 </div>
 
             </div>

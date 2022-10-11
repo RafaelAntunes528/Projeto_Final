@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .HomePage{
     background-color: rgb(255, 255, 255);
     width: 100vw;
@@ -19,7 +20,7 @@
     right: 10px;
     position: absolute;
     margin-right: 14vw;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
     height: 2vw;
     width: 9vw;
     border: 0ch;
@@ -40,7 +41,7 @@
     margin-right: 3vw;
     position: absolute;
     right: 10px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
     height: 2vw;
     width: 9vw;
     border: 0ch;
@@ -97,13 +98,13 @@
 
 .pt{
     color: black;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 
 .pt2{
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -138,7 +139,7 @@
 
 /* .pt{
     color: black;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
 
 } */
 
@@ -151,7 +152,7 @@
     flex-direction: column;
     margin-top: 18vw;
     margin-left: 33vh;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
 
 }
 
