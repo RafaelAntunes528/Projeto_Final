@@ -3,6 +3,10 @@ import SideBar from "./sideBar"
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 
 export default function PageOffers() {
+
+    
+
+
     return (
 
         <div>
