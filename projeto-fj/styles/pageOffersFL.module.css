@@ -41,11 +41,19 @@
     align-items: center;
 }
 
+
 .icone {
     display: flex;
     flex-direction: row;
     position: fixed;
     right: 7%;
+}
+.icone input {
+    background-color: white;
+    color: black;
+    width: 250px;
+    height: 25px;
+    border-radius: 20px ;
 }
 
 .title1 {

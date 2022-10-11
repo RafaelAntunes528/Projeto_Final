@@ -1,5 +1,7 @@
 import SideBar from "./sideBar";
 import styles from '../../styles/pageOffersFL.module.css'
+import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
+
 export default function OffersFL (){
     return(
         <div>
@@ -11,13 +13,15 @@ export default function OffersFL (){
                     <div className={styles.q2}>
                         <p className={styles.title1}>As suas propostas de trabalho</p>
                         <div className={styles.icone}>
-                            <AddCircleOutlineIcon />
+                            <input type={"search"}></input>
                         </div>
 
                     </div>
+                    <div className={styles.q4}>
+                    </div>
+
+                    
                     <div className={styles.q3}>
-                        <p className={styles.title2}>Não tem propostas de trabalho publicadas</p>
-                        <p>Clique no botão <AddCircleOutlineIcon /> para criar uma oferta de trabalho!</p>
                     </div>
 
 
