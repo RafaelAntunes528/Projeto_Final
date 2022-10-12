@@ -1,12 +1,10 @@
 import styles from '../../styles/SideBar.module.css'
-
-
-
-
-
-
-
-
+import PersonIcon from '@mui/icons-material/Person';
+import ChatIcon from '@mui/icons-material/Chat';
+import WorkIcon from '@mui/icons-material/Work';
+import Switch from '@mui/material/Switch';
+import FormControlLabel from "@mui/material/FormControlLabel";
+import Switchbox from './switchbotton';
 
 
 export default function SideBar() {
@@ -23,24 +21,29 @@ export default function SideBar() {
                 <div className={styles.imag}>
                     <img src="https://penser.com.br/wp-content/uploads/2018/06/bom-exemplo-foto-para-linkedin.png" />
                 </div>
-
                 <h2>John D.</h2>
+                <div>
+                    <Switchbox />
+                </div>
+
+
+
+
             </div>
 
             <div className={styles.menu}>
                 <div className={styles.submenu}>
-                    <button className={styles.button3}>Perfil</button>
+
+                    <button className={styles.button3}><PersonIcon className={styles.icons} />Perfil</button>
                 </div>
                 <div className={styles.submenu}>
-                    <button className={styles.button3}>Chat</button>
+
+                    <button className={styles.button3}><ChatIcon className={styles.icons} />Chat</button>
                 </div>
                 <div className={styles.submenu}>
-                    <button className={styles.button3}>Vagas</button>
+
+                    <button className={styles.button3}><WorkIcon className={styles.icons} />Vagas</button>
                 </div>
-
-
-
-
 
 
 
