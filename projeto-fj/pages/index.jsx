@@ -13,7 +13,7 @@ import {PopUp} from '../src/components/popUp'
 export default function Home() {
   return (
     <div className={styles.container}>
-      <SideBar></SideBar>
+      <PopUp/>
     </div>
   )
 }

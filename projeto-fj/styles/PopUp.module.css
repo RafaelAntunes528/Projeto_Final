@@ -106,7 +106,7 @@
 }
 
 .q4 {
-    background-color: rgb(4, 165, 165);
+    background-color: rgb(255, 255, 255);
     height: 6vh;
     width: 22vw;
     display: flex;
@@ -126,4 +126,8 @@
 
 .p1 {
     margin-bottom: 100vh;
+}
+
+.q6 {
+    padding: 2px;
 }

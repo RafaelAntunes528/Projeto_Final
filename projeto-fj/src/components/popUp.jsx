@@ -40,8 +40,14 @@ export function PopUp() {
                     <div className={styles.q5}>
 
                     <input type="number" id="horario" name="horario"
-                        min="0" max="23"></input><p className={styles.p1}>:</p>
-                        <imput type="number" id="horario" name="horario" min="0" max="59"></imput>
+                        min="0" max="23"></input>:<input type="number" id="horario" name="horario" min="0" max="59"></input>
+                        
+                        </div>
+                    <div className={styles.q6}>
+
+                    <input type="number" id="horario" name="horario"
+                        min="0" max="23"></input>:<input type="number" id="horario" name="horario" min="0" max="59"></input>
+                        
                         </div>
                         </div>
 
