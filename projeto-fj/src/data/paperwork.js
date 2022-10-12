@@ -6,7 +6,7 @@ import { getMongoCollection } from "./mongodb"
 //Defenimos o nome da base de dados e o nome da celeção
 const DB_NAME = "Projeto-Final"
 const COLLECTION_NAME = "Contas"
-
+const Ofertas = "Ofertas"
 
 
 // Introduz uma conta a coleção
@@ -14,14 +14,24 @@ async function insertConta(op) {
     const collection = await getMongoCollection(DB_NAME, COLLECTION_NAME)
     await collection.insertOne(op)
 }
+async function insertOferta(op) {
+    const collection = await getMongoCollection(DB_NAME, Ofertas)
+    await collection.insertOne(op)
+}
 async function getUserByEmail(email) {
     const collection = await getMongoCollection(DB_NAME, COLLECTION_NAME);
     const result = await collection.findOne({ email });
     return result;
   }
+async function getOferta(id) {
+    const collection = await getMongoCollection(DB_NAME, COLLECTION_NAME);
+        return await collection.findOne({ _id: new ObjectId(id)})
+}
 
 // Exportamos as duas funções criadas acima
 export {
     getUserByEmail,
     insertConta,
+    insertOferta,
+    getOferta
 }
