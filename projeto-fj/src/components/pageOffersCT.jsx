@@ -4,7 +4,7 @@ import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 
 export default function PageOffers() {
 
-    
+
 
 
     return (
@@ -17,7 +17,7 @@ export default function PageOffers() {
                 <div className={styles.q1}>
                     <div className={styles.q2}>
                         <p className={styles.title1}>Pesquisar por ofertas</p>
-                        <div className={styles.icone}>
+                        <div onClick={() => <popUp />} className={styles.icone}>
                             <AddCircleOutlineIcon />
                         </div>
 
@@ -30,6 +30,11 @@ export default function PageOffers() {
 
                 </div>
             </div>
+            {popUp && (
+                <div>
+
+                </div>
+            )}
         </div>
     )
 

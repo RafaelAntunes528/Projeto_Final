@@ -7,12 +7,13 @@ import Registro from '../src/components/registro'
 import styles from '../styles/Home.module.css'
 import SideBar from '../src/components/sideBar'
 import PageOffers from '../src/components/pageOffersCT'
+import PopUp from '../src/components/popup'
 
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <PageOffers></PageOffers>
+      <PopUp></PopUp>
     </div>
   )
 }
