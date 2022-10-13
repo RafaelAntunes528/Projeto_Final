@@ -1,5 +1,4 @@
 import index from '../../pages/index.jsx'
-import { useRouter } from "next/router"
 import styles from '../../styles/Login.module.css'
 import { useState } from 'react'
 import { fazPedido } from '../Utils/rest.js'
