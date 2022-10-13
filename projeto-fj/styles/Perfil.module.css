@@ -1,0 +1,100 @@
+.main {
+   background-color: #eff6fc;
+    width: 71vw;
+    height: 100vh;
+    position: fixed;
+    right: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.q1 {
+    background-color: rgb(255, 255, 255);
+    width: 30vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.q2 {
+    background-color: #c5e1f7;
+    width: 30vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+
+.editar{
+    color: black;
+    font-weight: 400;
+    margin-left: 20px;
+
+}
+.q3 {
+    background-color: rgb(210, 181, 237);
+    width: 15vw;
+    height: 66vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+}
+.icone2 {
+    height: 33vh;
+    width: 33vw;
+    color: #c5e1f7;
+}
+.button1 {
+    height: 3vh;
+    width: 11vw;
+    cursor: pointer;
+    background-color: #754991;
+    border-radius: 6px;
+    color: white;
+    border: transparent;
+    font-size: 12px;
+}
+
+.q4 {
+    background-color: rgb(255, 255, 255);
+    width: 11vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 12%;
+    
+}
+
+.button2{
+    height: 3vh;
+    width: 5vw;
+    cursor: pointer;
+    border: transparent;
+    background-color: #797979;
+    border-radius: 6px;
+    color: white;
+    font-size: 12px;
+}
+
+.button3 {
+    height: 3vh;
+    width: 5vw;
+    border: transparent;
+    cursor: pointer;
+    font-size: 12px;
+    background-color: #754991;
+    border-radius: 6px;
+    color: white;
+    text-size-adjust: 10px;
+
+}
+.input {
+    margin-top: 20px;
+}
