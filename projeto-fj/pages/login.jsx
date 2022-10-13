@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Login from '../src/components/login'
+import OffersFL from '../src/components/pageOffersFL'
 import Registro from '../src/components/registro'
 import styles from '../styles/Home.module.css'
 
