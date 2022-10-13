@@ -10,7 +10,7 @@ export function PopUp() {
                     <p className={styles.t1}>Criar uma proposta de trabalho</p>
                     <p className={styles.t2}>Estas serão as informações a
                         partir dasquais potenciais<br />  candidatos poderão encontrar a sua oferta.</p>
-                        <div className={styles.q3}>
+                    <div className={styles.q3}>
                     <label className={styles.servico} htmlFor="fname">Serviço pretendido</label>
                     <input type="text" id="serviço" name="serviço"></input>
                     <label className={styles.regiao} htmlFor="distritos">Região</label>
@@ -54,7 +54,7 @@ export function PopUp() {
 
                     <label className={styles.preço} size="2px" htmlFor="preço">Valor a pagar</label>
 
-                    <input type="number" id="preço" name="preço"></input>
+                    <input type="number" id="preço" name="preço" min="0"></input>
                     
                     
                     </div>
