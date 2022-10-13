@@ -35,7 +35,7 @@ export default function SideBar() {
             <div className={styles.menu}>
                 <div className={styles.submenu}>
 
-                    <button className={styles.button3}><PersonIcon className={styles.icons} />Perfil</button>
+                    <button onClick={() => router.push("/perfil")} className={styles.button3}><PersonIcon className={styles.icons} />Perfil</button>
                 </div>
                 <div className={styles.submenu}>
 
