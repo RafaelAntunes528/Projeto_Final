@@ -45,7 +45,7 @@ export default function HomePage() {
                     </div>
                     <div className={styles.qitem2}>
                         <h1 className={styles.pt2}>Temos 1 383 092 freelancers à sua espera.</h1>
-                        <button onClick={() => router.push("/pageOffersCT")} className={styles.buto}>Confira por si</button>
+                        <button onClick={() => router.push("/ctOfertas")} className={styles.buto}>Confira por si</button>
                     </div>
 
                 </div>

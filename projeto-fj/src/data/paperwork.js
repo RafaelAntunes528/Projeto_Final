@@ -16,7 +16,8 @@ async function insertConta(op) {
 }
 async function insertOferta(op) {
     const collection = await getMongoCollection(DB_NAME, Ofertas)
-    await collection.insertOne(op)
+    const result = await collection.insertOne(op)
+    return result.insertedId
 }
 async function getUserByEmail(email) {
     const collection = await getMongoCollection(DB_NAME, COLLECTION_NAME);
@@ -24,7 +25,7 @@ async function getUserByEmail(email) {
     return result;
   }
 async function getOferta(id) {
-    const collection = await getMongoCollection(DB_NAME, COLLECTION_NAME);
+    const collection = await getMongoCollection(DB_NAME, Ofertas);
         return await collection.findOne({ _id: new ObjectId(id)})
 }
 
