@@ -34,27 +34,28 @@ export function PopUp() {
                         <option value="Vila Real">Vila Real</option>
                         <option value="Viseu">Viseu</option>
                     </select>
-                    <div className={styles.q4}>
+                    
                         
-                    <label className={styles.horario} htmlFor="tentacles">Horário do serviço</label>
+                    <label className={styles.horario} htmlFor="tentacles">Hora de Inicio</label>
                     <div className={styles.q5}>
 
                     <input type="number" id="horario" name="horario"
                         min="0" max="23"></input>:<input type="number" id="horario" name="horario" min="0" max="59"></input>
                         
-                        </div>
+                    </div>
+                    
+                    <label className={styles.horario} htmlFor="tentacles">Hora do Fim</label>
                     <div className={styles.q6}>
 
                     <input type="number" id="horario" name="horario"
                         min="0" max="23"></input>:<input type="number" id="horario" name="horario" min="0" max="59"></input>
                         
-                        </div>
-                        </div>
+                    </div>
 
                     <label className={styles.preço} size="2px" htmlFor="preço">Valor a pagar</label>
 
                     <input type="number" id="preço" name="preço"></input>
-                    <small>wedw</small>
+                    
                     
                     </div>
 
