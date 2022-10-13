@@ -24,7 +24,7 @@ export default async function handler(req, res) {
         console.log("RES")
     }else {
         console.log("ok")
-        return res.status(404).json({message: "A password introduzida é inválida!"})
+        return res.status(404).json({message: "Utilizador não encontrado"})
     }
 
 }
