@@ -2,10 +2,11 @@ import styles from "../../styles/PageOffersCT.module.css"
 import SideBar from "./sideBar"
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 import { PopUp } from "./popUp";
+import { useState } from "react";
 
 export default function PageOffers() {
 
-    let isPopup = false
+    const [isPopup, setIspopup] = useState(false)
 
 
     return (
@@ -18,7 +19,7 @@ export default function PageOffers() {
                 <div className={styles.q1}>
                     <div className={styles.q2}>
                         <p className={styles.title1}>Pesquisar por ofertas</p>
-                        <div onClick={(e) => isPopup = true} className={styles.icone}>
+                        <div onClick={() => setIspopup(true)} className={styles.icone}>
                             <AddCircleOutlineIcon />
                         </div>
 
@@ -31,7 +32,7 @@ export default function PageOffers() {
 
                 </div>
             </div>
-             {isPopup === true ? 
+             {isPopup ? 
              
              <div>
                 {console.log("Deu")}
