@@ -5,10 +5,11 @@ import WorkIcon from '@mui/icons-material/Work';
 import Switch from '@mui/material/Switch';
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Switchbox from './switchbotton';
+import { useRouter } from 'next/router';
 
 
 export default function SideBar() {
-
+    const router = useRouter()
 
     return (
         <div className={styles.container}>
@@ -42,7 +43,7 @@ export default function SideBar() {
                 </div>
                 <div className={styles.submenu}>
 
-                    <button className={styles.button3}><WorkIcon className={styles.icons} />Vagas</button>
+                    <button onClick={() => router.push("/flOfertas")} className={styles.button3}><WorkIcon className={styles.icons} />Vagas</button>
                 </div>
 
 
