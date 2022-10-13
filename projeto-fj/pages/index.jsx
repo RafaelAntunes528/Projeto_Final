@@ -8,7 +8,7 @@ import styles from '../styles/Home.module.css'
 import SideBar from '../src/components/sideBar'
 import PageOffers from '../src/components/pageOffersCT'
 
-import PopUp from '../src/components/popup'
+
 import Switchbotton from '../src/components/switchbotton'
 import OffersFL from '../src/components/pageOffersFL'
 import { PopUp } from '../src/components/popUp'
@@ -18,7 +18,7 @@ import Perfil from '../src/components/perfil'
 export default function Home() {
   return (
     <div className={styles.container}>
-      <PopUp />
+      <Perfil></Perfil>
     </div>
   )
 }
