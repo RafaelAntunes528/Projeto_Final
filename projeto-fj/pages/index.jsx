@@ -17,11 +17,7 @@ import Perfil from '../src/components/perfil'
 export default function Home() {
   return (
     <div className={styles.container}>
-<<<<<<< HEAD
       <OffersFL></OffersFL>
-=======
-      <PopUp></PopUp>
->>>>>>> 6562c48bcc3ac064ede06ffefc2ffafccf68375d
     </div>
   )
 }
