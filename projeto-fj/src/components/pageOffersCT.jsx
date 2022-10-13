@@ -31,11 +31,11 @@ export default function PageOffers() {
 
                 </div>
             </div>
-            {popUp && (
+            {/* {popUp && (
                 <div>
 
                 </div>
-            )}
+            )} */}
         </div>
     )
 
