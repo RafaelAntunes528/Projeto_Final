@@ -21,7 +21,6 @@
     justify-content: center;
 
 }
-
 .q1 {
     background-color: rgb(255, 255, 255);
     width: 22vw;
@@ -119,15 +118,9 @@
     width: 22vw;
     display: flex;
     flex-direction: row;
-    margin-bottom: 2vh;
     border-bottom: 5px;
-
 }
 
 .p1 {
     margin-bottom: 100vh;
-}
-
-.q6 {
-    padding: 2px;
 }
