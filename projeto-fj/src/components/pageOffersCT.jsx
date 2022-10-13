@@ -1,11 +1,11 @@
 import styles from "../../styles/PageOffersCT.module.css"
 import SideBar from "./sideBar"
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
-
+import { PopUp } from "./popUp";
 
 export default function PageOffers() {
 
-
+    let isPopup = false
 
 
     return (
@@ -18,7 +18,7 @@ export default function PageOffers() {
                 <div className={styles.q1}>
                     <div className={styles.q2}>
                         <p className={styles.title1}>Pesquisar por ofertas</p>
-                        <div onClick={() => <popUp />} className={styles.icone}>
+                        <div onClick={(e) => isPopup = true} className={styles.icone}>
                             <AddCircleOutlineIcon />
                         </div>
 
@@ -31,11 +31,13 @@ export default function PageOffers() {
 
                 </div>
             </div>
-            {/* {popUp && (
-                <div>
-
-                </div>
-            )} */}
+             {isPopup === true ? 
+             
+             <div>
+                {console.log("Deu")}
+                <PopUp />
+            </div>
+            : console.log("Nao deu")} 
         </div>
     )
 
