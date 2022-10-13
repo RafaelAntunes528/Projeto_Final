@@ -31,15 +31,6 @@
     justify-content: center;
 }
 
-.q3 {
-    width: 60 vw;
-    height: 70vh;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
 
 .icone {
@@ -64,4 +55,32 @@
 .title2 {
     font-size: 30px;
 
+}
+
+.icone1 {
+    background-color: transparent;
+    width: 2vw;
+    height: 2vh;
+    position: fixed;
+    right: 105px;
+    z-index: 10;
+    top: 101px;
+}
+.q5 {
+    background-color: #eff6fc;
+    width: 60vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.pago {
+    margin-right: 20px;
+}
+
+.filtrar{
+    margin-left: 20px;
 }

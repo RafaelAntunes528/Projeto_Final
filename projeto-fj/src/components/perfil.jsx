@@ -16,8 +16,8 @@ export default function Perfil() {
                     <div className={styles.q3}>
                         <AccountCircleIcon className={styles.icone2}></AccountCircleIcon>
                         <button className={styles.button1}>Mudar foto de perfil</button>
-                        <input type="tel"></input>
-                        <input type="tel"></input>
+                        <input className={styles.input1} type="tel" placeholder="Telemóvel"></input>
+                        <input className={styles.input2} type="tel" placeholder="Email"></input>
                         <div className={styles.q4}>
                             <button className={styles.button2}>Cancelar</button>
                             <button className={styles.button3}>Guardar</button>

@@ -35,7 +35,7 @@
 
 }
 .q3 {
-    background-color: rgb(210, 181, 237);
+    background-color: rgb(255, 255, 255);
     width: 15vw;
     height: 66vh;
     display: flex;
@@ -57,6 +57,7 @@
     color: white;
     border: transparent;
     font-size: 12px;
+    margin-top: 1vh;
 }
 
 .q4 {
@@ -95,6 +96,11 @@
     text-size-adjust: 10px;
 
 }
-.input {
-    margin-top: 20px;
+.input1 {
+    margin-top: 5vh;
+}
+
+.input2 {
+    margin-top: 1vh;
+
 }

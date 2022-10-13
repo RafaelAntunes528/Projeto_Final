@@ -8,7 +8,6 @@ import styles from '../styles/Home.module.css'
 import SideBar from '../src/components/sideBar'
 import PageOffers from '../src/components/pageOffersCT'
 
-
 import Switchbotton from '../src/components/switchbotton'
 import OffersFL from '../src/components/pageOffersFL'
 import { PopUp } from '../src/components/popUp'
@@ -17,8 +16,12 @@ import Perfil from '../src/components/perfil'
 
 export default function Home() {
   return (
-    <div>
-      <SideBar></SideBar>
+    <div className={styles.container}>
+<<<<<<< HEAD
+      <OffersFL></OffersFL>
+=======
+      <PopUp></PopUp>
+>>>>>>> 6562c48bcc3ac064ede06ffefc2ffafccf68375d
     </div>
   )
 }
