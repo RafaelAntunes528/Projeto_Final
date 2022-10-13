@@ -2,6 +2,7 @@ import index from '../../pages/index.jsx'
 import styles from '../../styles/Login.module.css'
 import { useState } from 'react'
 import { fazPedido } from '../Utils/rest.js'
+import { useRouter } from 'next/router.js'
 export default function Login() {
 
     const [email, setEmail] = useState("")
