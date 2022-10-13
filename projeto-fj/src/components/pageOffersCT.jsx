@@ -3,6 +3,7 @@ import SideBar from "./sideBar"
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 import { PopUp } from "./popUp";
 import { useState } from "react";
+import { style } from "@mui/system";
 
 export default function PageOffers() {
 
@@ -32,13 +33,14 @@ export default function PageOffers() {
 
                 </div>
             </div>
-             {isPopup ? 
-             
-             <div>
-                {console.log("Deu")}
-                <PopUp />
-            </div>
-            : console.log("Nao deu")} 
+                {isPopup ? 
+                
+                <div className={styles.pop}>
+                    {console.log("Deu")}
+                    <PopUp />
+                </div>
+                : console.log("Nao deu")} 
+
         </div>
     )
 
