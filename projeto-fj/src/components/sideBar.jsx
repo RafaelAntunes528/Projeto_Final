@@ -11,14 +11,12 @@ import { useRouter } from 'next/router';
 export default function SideBar() {
     const router = useRouter()
 
+
+
+
     return (
         <div className={styles.container}>
-
-
-
             <div className={styles.avatar}>
-
-
                 <div className={styles.imag}>
                     <img src="https://penser.com.br/wp-content/uploads/2018/06/bom-exemplo-foto-para-linkedin.png" />
                 </div>
@@ -26,10 +24,6 @@ export default function SideBar() {
                 <div>
                     <Switchbox />
                 </div>
-
-
-
-
             </div>
 
             <div className={styles.menu}>
@@ -45,22 +39,12 @@ export default function SideBar() {
 
                     <button onClick={() => router.push("/flOfertas")} className={styles.button3}><WorkIcon className={styles.icons} />Vagas</button>
                 </div>
-
-
-
             </div>
             <div>
 
-
-
-
             </div>
 
-            <button className={styles.button2}>Logout</button>
-
-
-
-
+            <button onClick={() => router.push("/login")} className={styles.button2}>Logout</button>
 
         </div>
 

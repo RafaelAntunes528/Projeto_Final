@@ -34,8 +34,8 @@ export default function HomePage() {
                 <Image className={styles.image} src="/images/FastJob.png" alt="logo" width={240} height={150}></Image>
 
 
-                <button onClick={()=> router.push("/registro")} className={styles.registro}>REGISTRE-SE</button>
-                <button onClick={()=> router.push("/login")} className={styles.login}>LOGIN</button>
+                <button onClick={() => router.push("/registro")} className={styles.registro}>REGISTRE-SE</button>
+                <button onClick={() => router.push("/login")} className={styles.login}>LOGIN</button>
 
             </div>
             <div className={styles.qq}>
@@ -45,7 +45,7 @@ export default function HomePage() {
                     </div>
                     <div className={styles.qitem2}>
                         <h1 className={styles.pt2}>Temos 1 383 092 freelancers à sua espera.</h1>
-                        <button onClick={() => router.push("/ctOfertas")} className={styles.buto}>Confira por si</button>
+                        <button onClick={() => router.push("/registro")} className={styles.buto}>Confira por si</button>
                     </div>
 
                 </div>
@@ -56,7 +56,7 @@ export default function HomePage() {
                     </div>
                     <div className={styles.qitem4}>
                         <h1 className={styles.pt2}>Tem 8 722 oportunidades de trabalho à sua disposição.</h1>
-                        <button onClick={() => router.push("/flOfertas")} className={styles.buto}>Adira agora</button>
+                        <button onClick={() => router.push("/registro")} className={styles.buto}>Adira agora</button>
                     </div>
                 </div>
 

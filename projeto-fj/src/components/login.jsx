@@ -13,11 +13,11 @@ export default function Login() {
         "password": password
     }
 
-    const fim = ( async() => {
+    const fim = (async () => {
         const a = await fazPedido("/api/contas/login", "POST", info)
-         console.log(a)
-         if(a.status === 200)
-         router.push("/homePage")
+        console.log(a)
+        if (a.status === 200)
+            router.push("/perfil")
     })
 
     const router = useRouter()
@@ -29,8 +29,8 @@ export default function Login() {
                     <img src='/images/FastJob.png' width={290} height={180}></img>
                     <form onSubmit={(e) => e.preventDefault(fim())}>
 
-                        <input onChange={(e)=> setEmail(e.target.value)} value={email} className={styles.input} type={"email"} placeholder={"Email"} />
-                        <p><input onChange={(e)=> setPassword(e.target.value)} value={password} className={styles.input} type={"password"} placeholder={"Password"} /></p>
+                        <input onChange={(e) => setEmail(e.target.value)} value={email} className={styles.input} type={"email"} placeholder={"Email"} />
+                        <p><input onChange={(e) => setPassword(e.target.value)} value={password} className={styles.input} type={"password"} placeholder={"Password"} /></p>
                         <a href="#">Esqueceu sua senha?</a>
                         <p><button className={styles.button2}>Login</button></p>
                     </form>
