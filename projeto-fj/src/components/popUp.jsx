@@ -98,7 +98,7 @@ export function PopUp() {
                     </div>
 
                         <div className={styles.q2}>
-                            <button type={"reset"} className={styles.cancelar}>Cancelar</button>
+                            <button onClick={()=>window.location.reload() }type={"reset"} className={styles.cancelar}>Cancelar</button>
                             <button type={"submit"} className={styles.proposta}>Publicar proposta</button>
                         </div>
                 </div>
