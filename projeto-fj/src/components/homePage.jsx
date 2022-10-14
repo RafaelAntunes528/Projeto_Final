@@ -2,28 +2,6 @@ import styles from '../../styles/HomePage.module.css'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 
-/* async function lerHistorico() {
-    return await fazPedido(
-        "/api/calculadora",
-        "GET"
-    )
-}
-
-export function Calculadora() {
-    // fazSoma(3, 8).then(e => console.log(e))
-    const [a, setA] = useState(0)
-    const [b, setB] = useState(0)
-    const [resultado, setResultado] = useState(0)
-    const [historico, setHistorico] = useState([])
-
-    async function atualizaHistorico() {
-        const resposta = await lerHistorico()
-        setHistorico(resposta)
-    }
-    useEffect(() => {
-        atualizaHistorico()
-    }, []) */
-
 export default function HomePage() {
 
     const router = useRouter()
