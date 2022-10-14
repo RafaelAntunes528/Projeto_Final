@@ -1,0 +1,45 @@
+CT == contratante
+FL == FreeLancer
+Visitante == Pessoa que ainda não se registrou
+Cliente == Já se registrou
+
+Horários das reuniões - 10:00 às 10:30
+
+Horários dos Daily SCRUM:
+
+De manhã - 10:00 às 10:10
+De tarde - 14:30 às 14:40
+
+Slots das Reuniões Técnicas:
+
+De manhã
+11:30 às 11:45
+11:45 às 12:00
+
+De tarde
+16:00 às 16:15
+16:15 às 16:30
+16:30 às 16:45
+16:45 às 17:00
+
+terminal/git add ./git commit -m "mensagem aqui"/git push
+
+chat
+websockets
+exemplo como fazer
+duas telas escrever mensagem numa e aparecer na outra
+
+verificar as contas
+se der tempo
+
+quantas apis
+componentes
+CTOs
+estrutura para o backend
+
+
+
+83a7c5
+
+
+
