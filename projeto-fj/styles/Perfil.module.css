@@ -1,6 +1,6 @@
 .main {
     background-color: #eff6fc;
-    width: 71vw;
+    width: 80vw;
     height: 100vh;
     position: fixed;
     right: 0%;
@@ -103,10 +103,19 @@
 }
 
 .input1 {
-    margin-top: 5vh;
+    margin-top: 4vh;
+    background-color: white;
+    height: 3vh;
+    width: 11vw;
+
+
 }
 
 .input2 {
     margin-top: 1vh;
+    background-color: white;
+    height: 3vh;
+    width: 11vw;
+
 
 }

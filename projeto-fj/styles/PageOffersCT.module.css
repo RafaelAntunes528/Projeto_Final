@@ -1,16 +1,17 @@
 .main {
     background-color: #eff6fc;
     height: 100vh;
-    width: 71vw;
+    width: 80vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     position: fixed;
     right: 0%;
-    
+
 }
-.pop{
+
+.pop {
     z-index: 9999999;
     position: relative;
 }
@@ -23,7 +24,7 @@
     display: flex;
     flex-direction: column;
 
-    
+
 }
 
 .q2 {
@@ -50,14 +51,16 @@
     display: flex;
     flex-direction: row;
     position: fixed;
-    right: 7%;
+    right: 12%;
+
 }
 
 .title1 {
     font-size: 30px;
     margin-left: 15px;
-    
+
 }
+
 .title2 {
     font-size: 30px;
 

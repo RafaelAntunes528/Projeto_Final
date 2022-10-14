@@ -1,22 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-.HomePage{
+
+.HomePage {
     background-color: rgb(255, 255, 255);
     width: 100vw;
     height: 100vh;
+
 }
+
 .main {
     background-color: #c5e1f7;
     width: 100vw;
     height: 74px;
-    
+    z-index: 9999999;
 }
 
 .registro {
-    color:black;
+    color: black;
     cursor: pointer;
     background-color: white;
     margin-left: 10%;
-    margin-top: 44px;
+    margin-top: 30px;
     right: 10px;
     position: absolute;
     margin-right: 14vw;
@@ -25,18 +28,19 @@
     width: 9vw;
     border: 0ch;
     font-size: 10px;
-    
+
 
 }
-.registro:hover{
+
+.registro:hover {
     background-color: #ab69d6;
 }
 
 .login {
-    color: black ;
+    color: black;
     cursor: pointer;
     background-color: white;
-    margin-top: 44px;
+    margin-top: 30px;
     margin-left: 40px;
     margin-right: 3vw;
     position: absolute;
@@ -46,6 +50,7 @@
     width: 9vw;
     border: 0ch;
     font-size: 10px;
+
 }
 
 .login:hover {
@@ -55,30 +60,38 @@
 
 
 
-.q1{
+.q1 {
     position: relative;
-    background-color: rgb(255, 255, 255);
+    background-color: transparent;
     width: 50vw;
     height: 38vw;
     display: flex;
     flex-direction: row;
 
 }
-.q1:hover{
-    
+
+.q1:hover {
+    height: 97.5vh;
+    margin: 0%;
+    z-index: 0;
+    padding-top: 5px;
     background-color: violet;
     background: linear-gradient(to left, #ab69d6, #75b8ef);
 }
-.q1:hover .qitem{
+
+.q1:hover .qitem {
     opacity: 0;
 }
-.q1:hover .qitem2{
+
+.q1:hover .qitem2 {
     opacity: 1;
 }
-.q1:hover .qitem3{
+
+.q1:hover .qitem3 {
     opacity: 0;
 }
-.q1:hover .qitem4{
+
+.q1:hover .qitem4 {
     opacity: 1;
 }
 
@@ -92,17 +105,27 @@
 .qitem2 {
     opacity: 0;
 }
+
 .qitem4 {
     opacity: 0;
 }
 
-.pt{
-    color: black;
+.pt {
+    box-shadow: black;
+    border-bottom: black;
+    font-size: 60px;
+    border: 2px;
+
+
+    color: #754991;
+
+    font-weight: 700;
+
     font-family: 'Roboto', sans-serif;
 }
 
 
-.pt2{
+.pt2 {
     color: white;
     font-family: 'Roboto', sans-serif;
 
@@ -134,7 +157,9 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    
+    position: fixed;
+    bottom: 0%;
+    height: 90vh;
 }
 
 /* .pt{
@@ -144,7 +169,7 @@
 } */
 
 
-.pc{
+.pc {
 
     color: black;
     align-items: center;
@@ -176,6 +201,5 @@
     color: white;
     font-size: 20px;
     border: transparent;
-    
-}
 
+}

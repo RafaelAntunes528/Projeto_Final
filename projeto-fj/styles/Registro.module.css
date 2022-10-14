@@ -3,7 +3,7 @@
 }
 
 .container {
-	background:  url("https://i.imgur.com/K8WO8vm.jpg");
+	background: url("https://i.imgur.com/K8WO8vm.jpg");
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -14,12 +14,14 @@
 	background-size: cover;
 
 }
-.ai{
-	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
-			0 10px 10px rgba(0,0,0,0.22);
+
+.ai {
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+		0 10px 10px rgba(0, 0, 0, 0.22);
 	display: flex;
 	border-radius: 20px;
-	}
+}
+
 .div2 {
 	border-top-left-radius: 20px;
 	border-bottom-left-radius: 20px;
@@ -34,18 +36,18 @@
 .button1 {
 	cursor: pointer;
 	border-radius: 20px;
-    border: 1px solid;
-    background-color: transparent;
-    color: #FFFFFF;
-    font-size: 12px;
-    font-weight: bold;
-    padding: 12px 45px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+	border: 1px solid;
+	background-color: transparent;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
 	margin-top: 15vw;
-	
+
 	margin-left: 5vw;
-	
+
 
 }
 
@@ -65,17 +67,17 @@
 
 .text {
 	position: fixed;
-	top: 160px;
+	top: 280px;
 }
 
 .input1 {
 	box-sizing: border-box;
-    background-color: rgba(226, 226, 226, 0.835);
-    border: none;
-    padding: 8px 15px;
-    margin: 8px 0;
-    width: 100%;
-    color: black;
+	background-color: rgba(226, 226, 226, 0.835);
+	border: none;
+	padding: 8px 15px;
+	margin: 8px 0;
+	width: 100%;
+	color: black;
 }
 
 .form {
@@ -106,7 +108,7 @@
 	cursor: pointer;
 	margin-bottom: -80px;
 	border-radius: 20px;
-	border: 1px solid ;
+	border: 1px solid;
 	background-color: #7A4897;
 	color: #FFFFFF;
 	font-size: 12px;

@@ -18,7 +18,7 @@ export default function SideBar() {
         <div className={styles.container}>
             <div className={styles.avatar}>
                 <div className={styles.imag}>
-                    <img src="https://penser.com.br/wp-content/uploads/2018/06/bom-exemplo-foto-para-linkedin.png" />
+                    <img className={styles.foto} src="https://penser.com.br/wp-content/uploads/2018/06/bom-exemplo-foto-para-linkedin.png" />
                 </div>
                 <h2>John D.</h2>
                 <div>
