@@ -33,13 +33,13 @@ export default function PageOffers() {
 
                 </div>
             </div>
-                {isPopup ? 
-                
+            {isPopup ?
+
                 <div className={styles.pop}>
                     {console.log("Deu")}
                     <PopUp />
                 </div>
-                : console.log("Nao deu")} 
+                : console.log("Nao deu")}
 
         </div>
     )

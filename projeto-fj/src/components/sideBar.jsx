@@ -22,7 +22,7 @@ export default function SideBar() {
                 </div>
                 <h2>John D.</h2>
                 <div>
-                    <Switchbox />
+                    <Switchbox key="Switchbox" />
                 </div>
             </div>
 

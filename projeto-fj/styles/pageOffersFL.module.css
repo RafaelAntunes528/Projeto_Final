@@ -3,12 +3,12 @@
     height: 100vh;
     width: 71vw;
     display: flex;
-    flex-direction: row;
+    flex-direction: auto;
     justify-content: center;
     align-items: center;
     position: fixed;
     right: 0%;
-    
+
 }
 
 
@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: column;
 
-    
+
 }
 
 .q2 {
@@ -39,19 +39,21 @@
     position: fixed;
     right: 7%;
 }
+
 .icone input {
     background-color: white;
     color: black;
     width: 250px;
     height: 25px;
-    border-radius: 20px ;
+    border-radius: 20px;
 }
 
 .title1 {
     font-size: 30px;
     margin-left: 15px;
-    
+
 }
+
 .title2 {
     font-size: 30px;
 
@@ -66,6 +68,7 @@
     z-index: 10;
     top: 101px;
 }
+
 .q5 {
     background-color: #eff6fc;
     width: 60vw;
@@ -81,6 +84,6 @@
     margin-right: 20px;
 }
 
-.filtrar{
+.filtrar {
     margin-left: 20px;
 }
