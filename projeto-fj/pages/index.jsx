@@ -19,8 +19,7 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-
-      <OffersFL></OffersFL>
+      <HomePage></HomePage>
     </div>
   )
 }

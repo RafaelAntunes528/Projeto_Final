@@ -11,7 +11,7 @@ export default function Perfil() {
             <div className={styles.main}>
                 <div className={styles.q1}>
                     <div className={styles.q2}>
-                        <h1 className={styles.editar}>Editar perfil</h1>
+                        <h1 className={styles.editar}>Perfil</h1>
                     </div>
                     <div className={styles.q3}>
                         <AccountCircleIcon className={styles.icone2}></AccountCircleIcon>
