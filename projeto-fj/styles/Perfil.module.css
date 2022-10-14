@@ -1,5 +1,5 @@
 .main {
-   background-color: #eff6fc;
+    background-color: #eff6fc;
     width: 71vw;
     height: 100vh;
     position: fixed;
@@ -10,6 +10,7 @@
     justify-content: center;
 
 }
+
 .q1 {
     background-color: rgb(255, 255, 255);
     width: 30vw;
@@ -17,8 +18,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
+
 .q2 {
     background-color: #c5e1f7;
     width: 30vw;
@@ -28,26 +30,29 @@
     justify-content: baseline;
 }
 
-.editar{
+.editar {
     color: black;
     font-weight: 400;
     margin-left: 20px;
 
 }
+
 .q3 {
     background-color: rgb(255, 255, 255);
     width: 15vw;
     height: 66vh;
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
+    justify-content: flex-start;
     align-items: center;
 }
-.icone2 {
+
+.q3 .icone2 {
     height: 33vh;
     width: 33vw;
     color: #c5e1f7;
 }
+
 .button1 {
     height: 3vh;
     width: 11vw;
@@ -70,10 +75,10 @@
     justify-content: space-between;
     position: fixed;
     bottom: 12%;
-    
+
 }
 
-.button2{
+.button2 {
     height: 3vh;
     width: 5vw;
     cursor: pointer;
@@ -96,6 +101,7 @@
     text-size-adjust: 10px;
 
 }
+
 .input1 {
     margin-top: 5vh;
 }
